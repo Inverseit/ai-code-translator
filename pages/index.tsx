@@ -19,7 +19,7 @@ export default function Home() {
   }
 
   const handleCompile = async () => {
-    const maxCodeLength = 12000;
+    const maxCodeLength = 70000;
 
     if (!inputCode) {
       alert('Please enter some code.');
